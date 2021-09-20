@@ -40,12 +40,13 @@ namespace Catalog
             options.AddPolicy(name: MyAllowSpecificOrigins,
                               builder =>
                               {
-                                  //   builder.WithOrigins("http://localhost:3000/",
-                                  //   "https://localhost:5001/");
-                                  builder
-                                            .AllowAnyOrigin()
-                                            .AllowAnyMethod()
-                                            .AllowAnyHeader();
+                                     builder.WithOrigins("http://localhost:3000")
+                                     .AllowAnyHeader()
+                                     .AllowAnyMethod();
+                                //   builder
+                                //             .AllowAnyOrigin()
+                                //             .AllowAnyMethod()
+                                //             .AllowAnyHeader();
                               });
         });
             BsonSerializer.RegisterSerializer(new GuidSerializer(BsonType.String));
@@ -62,7 +63,9 @@ namespace Catalog
             // services.AddDbContext<MysqlItemsRepository>(options => options.UseMySQL(mySql.ConnectionString));
             // services.AddTransient<IItemsRepository, MysqlItemsRepository>();
 
-            services.AddControllers();
+            services.AddControllers(options =>{
+                options.SuppressAsyncSuffixInActionNames = false;
+            });
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Catalog", Version = "v1" });

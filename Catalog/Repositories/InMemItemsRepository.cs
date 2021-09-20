@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 using Catalog.Entities;
 
 namespace Catalog.Repositories
@@ -13,30 +14,34 @@ namespace Catalog.Repositories
             // new Item { Id = Guid.NewGuid(), Name = "Full Moon Sword", Price = 30, CreatedDate = DateTimeOffset.UtcNow },
             // new Item { Id = Guid.NewGuid(), Name = "Monk Plate Armour", Price = 3, CreatedDate = DateTimeOffset.UtcNow }
         };
-        public IEnumerable<Item> GetItems()
+        public async Task<IEnumerable<Item>> GetItemsAsync()
         {
-            return items;
+            return await Task.FromResult(items);
         }
-        public Item GetItem(Guid id)
+        public async Task<Item> GetItemAsync(Guid id)
         {
-            return items.Where(x => x.Id == id).SingleOrDefault();
+            var myItem = items.Where(x => x.Id == id).SingleOrDefault();
+            return await Task.FromResult(myItem);
         }
 
-        public void CreateItem(Item item)
+        public async Task CreateItemAsync(Item item)
         {
             items.Add(item);
+            await Task.CompletedTask;
         }
 
-        public void UpdateItem(Item item)
+        public async Task UpdateItemAsync(Item item)
         {
             var indexElement = items.FindIndex(ind => ind.Id == item.Id);
             items[indexElement] = item;
+            await Task.CompletedTask;
         }
 
-        public void DeleteItem(Guid id)
+        public async Task DeleteItemAsync(Guid id)
         {
-            var existingItem = GetItem(id);
+            var existingItem = await GetItemAsync(id);
             items.Remove(existingItem);
+            await Task.CompletedTask;
         }
     }
 }

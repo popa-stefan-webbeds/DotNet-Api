@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ErRWWaa7YEDvtEeOPF2cgVQ9kLhOqaN/L90V+YEbfzxS76ByWSnarQU3p3jOmGW0I8bw9gwTm8yjytZgnhhWvg==",
+  "dgSpecHash": "ZCrTfC+9jRwOKymvYUQUsM8BWOMZHxwje2hmCUfap3v1zVxCT9FH6jLiwbdePlbaBFRA2xUAtBS25W33s2JQUw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\StefanPopa\\Desktop\\Learning\\Learning\\TodoApp\\DotNet Restful Api\\Catalog\\Catalog.csproj",
+  "projectFilePath": "C:\\Users\\StefanPopa\\Desktop\\Learning\\DotNet-Api\\Catalog\\Catalog.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\StefanPopa\\.nuget\\packages\\bouncycastle.netcore\\1.8.5\\bouncycastle.netcore.1.8.5.nupkg.sha512",
     "C:\\Users\\StefanPopa\\.nuget\\packages\\dnsclient\\1.4.0\\dnsclient.1.4.0.nupkg.sha512",

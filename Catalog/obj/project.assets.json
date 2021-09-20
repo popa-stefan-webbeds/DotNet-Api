@@ -5887,11 +5887,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\StefanPopa\\Desktop\\Learning\\Learning\\TodoApp\\DotNet Restful Api\\Catalog\\Catalog.csproj",
+      "projectUniqueName": "C:\\Users\\StefanPopa\\Desktop\\Learning\\DotNet-Api\\Catalog\\Catalog.csproj",
       "projectName": "Catalog",
-      "projectPath": "C:\\Users\\StefanPopa\\Desktop\\Learning\\Learning\\TodoApp\\DotNet Restful Api\\Catalog\\Catalog.csproj",
+      "projectPath": "C:\\Users\\StefanPopa\\Desktop\\Learning\\DotNet-Api\\Catalog\\Catalog.csproj",
       "packagesPath": "C:\\Users\\StefanPopa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\StefanPopa\\Desktop\\Learning\\Learning\\TodoApp\\DotNet Restful Api\\Catalog\\obj\\",
+      "outputPath": "C:\\Users\\StefanPopa\\Desktop\\Learning\\DotNet-Api\\Catalog\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\StefanPopa\\AppData\\Roaming\\NuGet\\NuGet.Config",

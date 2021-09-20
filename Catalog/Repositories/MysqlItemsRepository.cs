@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 using Catalog.Entities;
 using Microsoft.EntityFrameworkCore;
 
@@ -16,37 +17,37 @@ namespace Catalog.Repositories
 
         public DbSet<Item> Catalog { get; set; }
 
-        public void CreateItem(Item item)
+        public async Task CreateItemAsync(Item item)
         {
-            Catalog.Add(item);
-            SaveChanges();
+            await Catalog.AddAsync(item);
+            await SaveChangesAsync();
         }
 
-        public void DeleteItem(Guid id)
+        public async Task DeleteItemAsync(Guid id)
         {
-            var foundObj = Catalog.Where(itm => itm.Id == id).SingleOrDefault();
+            var foundObj = await Catalog.Where(itm => itm.Id == id).SingleOrDefaultAsync();
             if (foundObj != null)
             {
                 Catalog.Remove(foundObj);
-                SaveChanges();
+                await SaveChangesAsync();
             }
         }
 
-        public Item GetItem(Guid id)
+        public async Task<Item> GetItemAsync(Guid id)
         {
-            var foundObj = Catalog.AsNoTracking().Where(itm => itm.Id == id).SingleOrDefault();
+            var foundObj = await Catalog.AsNoTracking().Where(itm => itm.Id == id).SingleOrDefaultAsync();
             return foundObj;
         }
 
-        public IEnumerable<Item> GetItems()
+        public async Task<IEnumerable<Item>> GetItemsAsync()
         {
-            return Catalog.ToList();
+            return await Catalog.ToListAsync();
         }
 
-        public void UpdateItem(Item item)
+        public async Task UpdateItemAsync(Item item)
         {
             Catalog.Update(item);
-            SaveChanges();
+            await SaveChangesAsync();
         }
     }
 }
