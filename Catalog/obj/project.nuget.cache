@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "ZCrTfC+9jRwOKymvYUQUsM8BWOMZHxwje2hmCUfap3v1zVxCT9FH6jLiwbdePlbaBFRA2xUAtBS25W33s2JQUw==",
+  "dgSpecHash": "Tik2QpKGp0GTXZMLZ/2G/xypw8CTtBvH9Sw7wFPEUn4IXJQ1ZTJ5n3B9X0Nhtu8gTTFVq+YP4Epm4fezbsxqzQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\StefanPopa\\Desktop\\Learning\\DotNet-Api\\Catalog\\Catalog.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\StefanPopa\\.nuget\\packages\\aspnetcore.healthchecks.mongodb\\5.0.1\\aspnetcore.healthchecks.mongodb.5.0.1.nupkg.sha512",
     "C:\\Users\\StefanPopa\\.nuget\\packages\\bouncycastle.netcore\\1.8.5\\bouncycastle.netcore.1.8.5.nupkg.sha512",
     "C:\\Users\\StefanPopa\\.nuget\\packages\\dnsclient\\1.4.0\\dnsclient.1.4.0.nupkg.sha512",
     "C:\\Users\\StefanPopa\\.nuget\\packages\\google.protobuf\\3.14.0\\google.protobuf.3.14.0.nupkg.sha512",
@@ -25,6 +26,10 @@
     "C:\\Users\\StefanPopa\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\StefanPopa\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\5.0.2\\microsoft.extensions.dependencyinjection.5.0.2.nupkg.sha512",
     "C:\\Users\\StefanPopa\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\StefanPopa\\.nuget\\packages\\microsoft.extensions.diagnostics.healthchecks\\5.0.1\\microsoft.extensions.diagnostics.healthchecks.5.0.1.nupkg.sha512",
+    "C:\\Users\\StefanPopa\\.nuget\\packages\\microsoft.extensions.diagnostics.healthchecks.abstractions\\5.0.1\\microsoft.extensions.diagnostics.healthchecks.abstractions.5.0.1.nupkg.sha512",
+    "C:\\Users\\StefanPopa\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\5.0.0\\microsoft.extensions.fileproviders.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\StefanPopa\\.nuget\\packages\\microsoft.extensions.hosting.abstractions\\5.0.0\\microsoft.extensions.hosting.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\StefanPopa\\.nuget\\packages\\microsoft.extensions.logging\\5.0.0\\microsoft.extensions.logging.5.0.0.nupkg.sha512",
     "C:\\Users\\StefanPopa\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\5.0.0\\microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\StefanPopa\\.nuget\\packages\\microsoft.extensions.options\\5.0.0\\microsoft.extensions.options.5.0.0.nupkg.sha512",

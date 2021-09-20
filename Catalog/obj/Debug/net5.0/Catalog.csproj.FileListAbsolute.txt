@@ -184,3 +184,6 @@ C:\Users\StefanPopa\Desktop\Learning\DotNet-Api\Catalog\obj\Debug\net5.0\Catalog
 C:\Users\StefanPopa\Desktop\Learning\DotNet-Api\Catalog\obj\Debug\net5.0\ref\Catalog.dll
 C:\Users\StefanPopa\Desktop\Learning\DotNet-Api\Catalog\obj\Debug\net5.0\Catalog.pdb
 C:\Users\StefanPopa\Desktop\Learning\DotNet-Api\Catalog\obj\Debug\net5.0\Catalog.genruntimeconfig.cache
+C:\Users\StefanPopa\Desktop\Learning\DotNet-Api\Catalog\bin\Debug\net5.0\HealthChecks.MongoDb.dll
+C:\Users\StefanPopa\Desktop\Learning\DotNet-Api\Catalog\bin\Debug\net5.0\Microsoft.Extensions.Diagnostics.HealthChecks.dll
+C:\Users\StefanPopa\Desktop\Learning\DotNet-Api\Catalog\bin\Debug\net5.0\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
